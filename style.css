@@ -1,0 +1,438 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "El Messiri", sans-serif;
+  font-size: 14px;
+  line-height: 135%;
+  color: #ffffff;
+  background-color: #162831;
+  font-weight: 700;
+}
+
+header {
+  width: 1298px;
+  height: 60px;
+  margin: 30px auto 50px;
+  align-items: center;
+}
+
+#logo {
+  width: 60px;
+  height: 60px;
+}
+
+.item {
+  font-weight: 400;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.button {
+  padding: 9px 15px;
+  width: 155px;
+  height: 36px;
+
+  font-weight: 600;
+  font-size: 13px;
+  border: none;
+  border-radius: 3px;
+}
+
+.first-b {
+  color: #ffffff;
+  background-color: #018abe;
+}
+
+.main-photo {
+  width: 1296px;
+  height: 600px;
+  margin: 50px auto 75px;
+
+  text-align: center;
+  font-size: 24px;
+  line-height: 140%;
+
+  background: linear-gradient(
+      rgba(152, 201, 220, 0.5) 100%,
+      rgba(152, 201, 220, 0.5) 100%
+    ),
+    url("./image/main_photo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+
+h1 {
+  width: 587px;
+  height: 180px;
+  margin: 210px auto;
+
+  text-align: center;
+  font-size: 64px;
+  line-height: 140%;
+}
+
+#slogan {
+  position: relative;
+  top: 136px;
+}
+
+#slogan::before,
+#slogan::after {
+  width: 28px;
+  height: 14px;
+  position: absolute;
+  top: 10px;
+  content: "";
+  background-color: #ffffff;
+}
+
+#slogan::before {
+  left: 433px;
+  border-radius: 0 50px;
+}
+
+#slogan::after {
+  right: 433px;
+  border-radius: 50px 0;
+}
+
+.sessions {
+  width: 1296px;
+  margin: 150px auto;
+}
+
+h2 {
+  margin-bottom: 100px;
+  position: relative;
+
+  font-size: 42px;
+  text-align: center;
+  line-height: 140%;
+}
+
+h2::before,
+h2::after {
+  width: 28px;
+  height: 14px;
+  position: absolute;
+  top: 22px;
+
+  content: "";
+  background-color: #018abe;
+}
+
+h2::before {
+  border-radius: 0 50px;
+}
+
+h2::after {
+  border-radius: 50px 0;
+}
+
+.sessions h2::before {
+  left: 407px;
+}
+
+.sessions h2::after {
+  right: 407px;
+}
+
+.type-1,.type-2,
+.type-3,
+.type-4,
+.type-5 {
+  width: 416px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.type-1 {
+  height: 540px;
+  background: linear-gradient(rgb(1, 138, 190, 0.5) 100%, hsl(0, 0%, 56%) 100%),
+    url(./image/photo1.png);
+}
+
+.type-2,
+.type-3,
+.type-4,
+.type-5 {
+  height: 258px;
+  margin-top: 24px;
+
+  background: linear-gradient(rgb(1, 138, 190, 0.5) 100%, hsl(0, 0%, 56%) 100%),
+    url(./image/photo2.png);
+}
+
+.type-1 h3 {
+  position: relative;
+  top: 456px;
+  left: 50px;
+}
+
+.type-2 h3,
+.type-3 h3 {
+  width: 336px;
+  position: relative;
+  top: 194px;
+  left: 40px;
+}
+
+.type-4 h3,
+.type-5 h3 {
+  width: 336px;
+  position: relative;
+  top: 160px;
+  left: 40px;
+}
+
+.sessions h3 {
+  font-size: 24px;
+  line-height: 140%;
+}
+
+.reviews {
+  width: 1396px;
+  margin: 150px auto;
+}
+
+.reviews h2::before {
+  left: 548px;
+}
+
+.reviews h2::after {
+  right: 548px;
+}
+
+.reviews h3 {
+  font-size: 16px;
+  line-height: 140%;
+  margin-bottom: 15px;
+}
+
+.reviews-2 h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.reviews-1,
+.reviews-2,
+.reviews-3 {
+  margin-bottom: 50px;
+
+  font-weight: 300;
+  line-height: 140%;
+
+  border-radius: 10px;
+  background-color: #018abe;
+}
+
+.reviews-1,
+.reviews-3 {
+  width: 500px;
+  height: 276px;
+  padding-top: 40px;
+  padding-left: 45px;
+
+  font-size: 10px;
+
+  opacity: 0.4;
+}
+
+.reviews-2 {
+  width: 636px;
+  height: 350px;
+  padding-top: 60px;
+  padding-left: 50px;
+}
+
+.reviews-1 p,
+.reviews-3 p {
+  width: 410px;
+}
+.reviews-2 p {
+  width: 516px;
+}
+
+.information {
+  width: 1076px;
+  margin: 150px auto;
+
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.information h2::before {
+  left: 343px;
+}
+
+.information h2::after {
+  right: 343px;
+}
+
+.massage {
+  margin-bottom: 100px;
+}
+.photo-info {
+  width: 526px;
+  border-radius: 10px;
+}
+.massage .photo-info {
+  height: 365px;
+  margin-top: 10px;
+}
+
+.hydrotherapy .photo-info {
+  height: 400px;
+}
+
+.information h3 {
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+}
+
+.information figcaption {
+  width: 466px;
+}
+
+.prices {
+  width: 1076px;
+  margin: 150px auto;
+}
+
+.prices h2::before {
+  left: 279px;
+}
+
+.prices h2::after {
+  right: 279px;
+}
+
+.table {
+  width: 416px;
+  margin-bottom: 135px;
+  padding-left: 38px;
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  text-align: left;
+}
+
+th {
+  position: relative;
+  padding-bottom: 38px;
+}
+tr th:first-of-type::before {
+  width: 18px;
+  height: 9px;
+  position: absolute;
+  content: "";
+  top: 8px;
+  left: -38px;
+  background-color: #018abe;
+  border-radius: 0 50px;
+}
+
+.photo-thanks {
+  height: 396px;
+  margin-bottom: 30px;
+
+  border-radius: 10px;
+}
+
+.prices figure {
+  width: 526px;
+  height: 455px;
+
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 140%;
+  text-align: center;
+}
+
+.location {
+  width: 1296px;
+  margin: 150px auto;
+}
+
+.map {
+  width: 856px;
+  height: 604px;
+  margin-bottom: 24px;
+}
+
+.address-1,
+.address-2 {
+  width: 392px;
+  height: 290px;
+  margin-bottom: 24px;
+  padding: 35px 45px;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 135%;
+
+  background: #018abe;
+  border-radius: 10px;
+}
+
+.address-1 h3,
+.address-2 h3 {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+}
+
+.second-b {
+  color: #018abe;
+  background-color: #ffffff;
+}
+
+.address-1 p,
+.address-2 p {
+  margin-bottom: 21px;
+  padding-left: 40px;
+  position: relative;
+}
+
+.address-1 p:last-of-type,
+.address-2 p:last-of-type {
+  margin-bottom: 30px;
+}
+
+.address-1 p::before,
+.address-2 p::before {
+  width: 20px;
+  position: absolute;
+  content: url(./image/label.svg);
+  top: 0;
+  left: -1px;
+}
+
+.address-1 p:nth-of-type(1)::before,
+.address-2 p:nth-of-type(1)::before {
+  height: 20px;
+  content: url(./image/label.svg);
+}
+
+.address-1 p:nth-of-type(2)::before,
+.address-2 p:nth-of-type(2)::before {
+  height: 16px;
+  content: url(./image/metro.svg);
+}
+
+.address-1 p:nth-of-type(3)::before,
+.address-2 p:nth-of-type(3)::before {
+  height: 20px;
+  content: url(./image/calendar.svg);
+}
